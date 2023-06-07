@@ -1,7 +1,7 @@
 ;(function () {
   var vueAuthImage = {};
   var axios = typeof require === 'function'
-  ? require('axios')
+  ? require('axios').default
   : window.Axios;
 
   if (!axios) {
